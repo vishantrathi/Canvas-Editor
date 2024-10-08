@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="./src/Styles/Responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        body {
+            scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 100%;
+        }
         .about-section {
             padding: 50px 0;
             background-color: #f8f9fa;
@@ -34,6 +47,19 @@
             font-size: 3rem;
             color: #007bff;
             margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer .share a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+        .footer .credit {
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -74,12 +100,12 @@
                 <div class="col-md-6 text-center">
                     <i class="fas fa-bullseye mission-icon"></i>
                     <h3>Our Mission</h3>
-                    <p>To empower creativity by making digital art accessible to everyone, fostering a global community of artists and innovators.</p>
+                    <p>To empower creativity by making digital art accessible to everyone, fostering a global community of artists and innovators.We strive to provide the best tools and resources for artists to express their creativity and share their work with the world. Our mission is to inspire and support artists at every stage of their journey, from beginners to professionals.Our mission is to break down barriers and provide tools that enable artists to express their unique visions. We believe that creativity should be nurtured and celebrated, and our platform is designed to support artists at every stage of their journey. From beginners exploring their first digital strokes to professionals refining their techniques, we are committed to offering a space where creativity can flourish. Join us in our mission to inspire and be inspired, and together, let's create a world where art knows no bounds.</p>
                 </div>
                 <div class="col-md-6 text-center">
                     <i class="fas fa-book-open story-icon"></i>
                     <h3>Our Story</h3>
-                    <p>Founded in 2024, Creative Canvas Tool emerged from a passion project to revolutionize digital artistry, growing into a vibrant platform used by artists worldwide.</p>
+                    <p>Founded in 2024, Creative Canvas Tool emerged from a passion project to revolutionize digital artistry, growing into a vibrant platform used by artists worldwide. Our journey began with a small team of dedicated individuals who believed in the power of creativity and technology. Over the years, we have expanded our team and our vision, continuously innovating to provide the best tools and resources for digital artists. Our platform is now a hub for creativity, collaboration, and inspiration, where artists can connect, share their work, and learn from each other. We are committed to fostering a supportive and inclusive community that celebrates the diversity of artistic expression. As we look to the future, we remain dedicated to pushing the boundaries of digital art, ensuring that every artist has the opportunity to bring their unique vision to life.</p>
                 </div>
             </div>
             <div class="row mt-5">
@@ -98,6 +124,18 @@
                     <h4 class="mt-3">Emily Chen</h4>
                     <p>UX Designer</p>
                 </div>
+                <div class="col-md-4 text-center team-member">
+                    <h4 class="mt-3">Sophia Lee</h4>
+                    <p>Marketing Specialist</p>
+                </div>
+                <div class="col-md-4 text-center team-member"></div>
+                    <h4 class="mt-3">Michael Brown</h4>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="col-md-4 text-center team-member">
+                    <h4 class="mt-3">Olivia Davis</h4>
+                    <p>Community Manager</p>
+                </div>
             </div>
             <div class="row mt-5">
                 <div class="col-12 text-center">
@@ -109,7 +147,7 @@
         </div>
     </section>
     <section class="footer" id="footer">
-        <div class="share" style="font-size: 0.9rem; text-align: center;">
+        <div class="share" style="font-size: 0.9rem; text-align: center;"></div>
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fa-brands fa-x-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
@@ -117,9 +155,8 @@
             <a href="#" class="fa-brands fa-pinterest"></a>
         </div>
         <div class="credit" style="font-size: 1rem; text-align: center;">
-            <p style="color: white;">
+            <p style="color: white;"></p>
                 Created by <span><a href="https://github.com/vishanurag/" target="_blank">ANURAG VISHWAKARMA</a></span> | All rights reserved © 2024
-
             </p>
         </div>
     </section>
